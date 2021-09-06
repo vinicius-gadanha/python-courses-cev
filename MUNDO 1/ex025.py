@@ -1,0 +1,6 @@
+nome = str(input('\033[1;30mDigite seu nome completo:')).strip()
+print('-'*50)
+print('No seu nome tem Silva? {}.'.format('SILVA' in nome.upper()))
+print('-'*50)
+print('OBS: Se apareceu TRUE quer dizer que sim\n     Se apareceu FALSE quer dizer que não')
+print('-'*50)

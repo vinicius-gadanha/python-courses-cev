@@ -1,0 +1,6 @@
+d = int(input('\033[1;36mQuantos dias alugados?'))
+k = float(input('\033[1;36mQuantos Km rodados?'))
+alu = (d * 60) + (k * 0.15)
+print(' ')
+print('\033[1;30mO total a pagar é de \033[1;31mR${:.2f}'.format(alu))
+print(' ')

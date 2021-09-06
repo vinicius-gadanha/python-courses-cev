@@ -1,0 +1,6 @@
+sal = float(input('\033[1;33mQual é o salário do funcionario? R$'))
+aum = sal + (sal*15/100)
+print('\033[1;31m-'*40)
+print('\033[1;30m                Salário Atual: {:.2f}'.format(sal))
+print('\033[1;30mSalário com um aumento de 15%: {:.2f}'.format(aum))
+print('\033[1;31m-'*40)
